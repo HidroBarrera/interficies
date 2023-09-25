@@ -5,6 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proves_WpfApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="450">
-    <Grid/>
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="357" VerticalAlignment="Top" Width="800" Source="/image.png" Stretch="Fill"/>
+        <Button Content="Ability 1" HorizontalAlignment="Left" Margin="25,391,0,0" VerticalAlignment="Top" Height="33" Click="Button_Click_2"/>
+        <Button Content="Ability 2" HorizontalAlignment="Left" Margin="90,391,0,0" VerticalAlignment="Top" Height="33" RenderTransformOrigin="0.715,0.526"/>
+        <Button Content="Ability 3" HorizontalAlignment="Left" Margin="155,391,0,0" VerticalAlignment="Top" Height="33"/>
+        <Image HorizontalAlignment="Left" Height="26" Margin="502,386,0,0" VerticalAlignment="Top" Width="293" Source="/Barra_vida_1.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="26" Margin="502,403,0,0" VerticalAlignment="Top" Width="292" Source="/Barra_vida_1.png" Stretch="Fill"/>
+        <Button Content="Info" HorizontalAlignment="Left" Margin="438,391,0,0" VerticalAlignment="Top" Height="33" Click="Button_Click_1" Width="35"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="179,217,0,0" VerticalAlignment="Top" Width="100" Source="/character_1.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="598,73,0,0" VerticalAlignment="Top" Width="100" Source="/dead_5.png" RenderTransformOrigin="0.5,0.5" Grid.Row="1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="26" Margin="576,56,0,0" VerticalAlignment="Top" Width="120" Source="/Barra_vida_1.png" Stretch="Fill" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="740,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="es-es" Text="0"/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="31" Margin="751,362,0,0" VerticalAlignment="Top" Width="31" Source="/Gold_Count_1.png"/>
+        <Image HorizontalAlignment="Left" Height="26" Margin="576,73,0,0" VerticalAlignment="Top" Width="120" Source="/Barra_vida_1.png" Stretch="Fill" Grid.Row="1"/>
+        <ListBox Margin="0,0,686,382" Background="{x:Null}" SelectionChanged="ListBox_SelectionChanged">
+            <Button Content="Personaje"/>
+            <Button Content="Enemigo"/>
+            <Button Content="Personaje"/>
+        </ListBox>
+    </Grid>
 </Window>

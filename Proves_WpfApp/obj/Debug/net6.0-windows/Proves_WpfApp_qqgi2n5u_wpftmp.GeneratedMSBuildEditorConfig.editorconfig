@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Proves_WpfApp_qqgi2n5u_wpftmp
+build_property.ProjectDir = C:\Users\idrol\OneDrive\Escritorio\Coses de clase\M07_Desenvolupament d'interfícies\UF01\Proves\Proves_WpfApp\Proves_WpfApp\
